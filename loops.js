@@ -23,3 +23,17 @@ function whileLoop(number){
 
 //console.log(whileLoop(10))
 
+var i = 0;
+function incrementVariable()
+{
+  i = i +1;
+  return i;
+}
+
+function doWhileLoop(integer){
+ do{
+  console.log("I run once regardless.")
+} while ( incrementVariable() < integer)
+}
+
+console.log(doWhileLoop(10))
