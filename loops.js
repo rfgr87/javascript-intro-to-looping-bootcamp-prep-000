@@ -11,7 +11,7 @@ function forLoop(array){
   return array
 }
 
-//console.log(forLoop([1,2,3]))
+console.log(forLoop([1,2,3]))
 
 function whileLoop(number){
   while(number > 0){
