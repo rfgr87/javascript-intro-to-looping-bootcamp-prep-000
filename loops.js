@@ -14,7 +14,7 @@ function forLoop(array){
 //console.log(forLoop([1,2,3]))
 
 function whileLoop(number){
-  while(number > -1){
+  while(number > 0){
     console.log(number)
     number--
   }
@@ -26,7 +26,7 @@ function whileLoop(number){
 var i = 0;
 function incrementVariable()
 {
-  i = i +1;
+  i = i + 1;
   return i;
 }
 
@@ -36,4 +36,4 @@ function doWhileLoop(integer){
 } while ( incrementVariable() < integer)
 }
 
-console.log(doWhileLoop(10))
+//console.log(doWhileLoop(10))
