@@ -12,3 +12,4 @@ function forLoop(array){
 }
 
 console.log(forLoop([1,2,3]))
+
