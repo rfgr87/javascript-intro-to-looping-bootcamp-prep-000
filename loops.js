@@ -5,7 +5,7 @@ function forLoop(array){
       array = [...array, "I am 1 strange loop"]
     }
     else if(i>1){
-      array = [...array, "I am ${i} strange loops"]
+      array = [...array, `I am ${i} strange loops`]
     }
   }
   return array
