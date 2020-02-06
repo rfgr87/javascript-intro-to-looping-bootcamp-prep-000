@@ -11,4 +11,4 @@ function forLoop(array){
   return array
 }
 
-forLoop([1,2,3])
+console.log(forLoop([1,2,3]))
