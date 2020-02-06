@@ -21,4 +21,5 @@ function whileLoop(number){
   return "done"
 }
 
-console.log(whileLoop(10))
+//console.log(whileLoop(10))
+
